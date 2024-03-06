@@ -38,6 +38,7 @@ console.log("=================================");
 let slice = newArray.slice(0-3);
 console.log("sebelum", newArray);
 console.log("slice ", slice);
+console.log("sesudah", newArray);
 console.log("=================================");
 
 //8. SPLICE = menghapus element array tertentu dan mengganti atau menambah isi array
