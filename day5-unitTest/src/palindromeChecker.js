@@ -1,4 +1,4 @@
-function palindromeChecker(nilai) {
+export const palindromeChecker = (nilai) => {
   for (let i = 1; i <= nilai.length; i++) {
     if (nilai[i - 1] != nilai[nilai.length - i]) {
       return false;
@@ -6,7 +6,5 @@ function palindromeChecker(nilai) {
   }
 
   return true;
-}
+};
 
-// export default palindromeChecker;
-module.exports = { palindromeChecker };
